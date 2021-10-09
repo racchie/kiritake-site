@@ -1,0 +1,91 @@
+#################### Banner #####################
+banner:
+  enable : true
+  title : "[売る仕組み]の提供"
+  content : "売るための仕組みだけではなく、売れる仕組みだけでもなく、どちらもご提供可能です。<br>
+              仕組みを作って提供するだけではなく、仕組みの仕組みもわかるように教えます。"
+  # image : "images/hero-image/hero-slider-01.jpg"
+  image : "images/hero-image/hero-slider.jpg"
+  # <a href="https://pixabay.com/ja/users/stevepb-282134/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2301933">Steve Buissinne</a>による<a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2301933">Pixabay</a>からの画像
+  # 1280×853
+  button:
+    enable : true
+    label : "プロジェクトサンプル"
+    link : "#products"
+
+#################### Mission #####################
+mission:
+  enable : true
+  title : "ミッション/About"
+  section : "mission/about"
+  content : "セクション内のビデオは、サムネイルを用意しておき(video_thumb)、YouTubeの紹介ビデオのID(video_id)とともにymlに登録すれば見える。素晴らしい。
+  <br>ついでに左の文字を入れておくところも日本語が通るがこのパラグラフは改行<strike>できない</strike>できた。"
+  video_thumb: "images/video-thumb.jpg"
+  video_id: "ResipmZmpDU"
+
+
+#################### Vission #####################
+vision:
+  enable : true
+  section : "AXIS of business"
+  vision_item:
+  - title : "IT Engineering"
+    # image : "images/vision/vision-01.jpg"
+    image: "images/vision/vision-pg.jpg"
+    content : "ITエンジニアリング<br>プログラムコードを書くことだけがITエンジニアの仕事ではない。が、プログラムを書くことで論理的思考が生まれ、論理的思考が設計や企画を確固たるものとする。"
+    # <a href="https://pixabay.com/ja/users/elchinator-10722855/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4280758">Elchinator</a>による<a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4280758">Pixabay</a>からの画像
+    # 640x426
+
+  - title : "Marketing"
+    # image : "images/vision/vision-02.jpg"
+    image : "images/vision/vision-mk.jpg"
+    content : "デジタルマーケティング<br>ITエンジニアは販売のための仕組みは作れるが「売れる仕組み」のことを知らない。マーケターは「売れる仕組み」は作れても販売システムは作れない。"
+    # <a href="https://pixabay.com/ja/users/campaign_creators-9720680/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3724794">Tammy Duggan-Herd</a>による<a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3724794">Pixabay</a>からの画像
+    # 640x426
+
+  - title : "Educating"
+    # image : "images/vision/vision-03.jpg"
+    image : "images/vision/vision-ed.jpg"
+    content : "教育/講師<br>知識を得ることだけでは成長できない。アウトプットがあってこそ人は成長し、学ぶのだ。"
+    # <a href="https://pixabay.com/ja/users/arttower-5337/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=56641">Brigitte makes custom works from your photos, thanks a lot</a>による<a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=56641">Pixabay</a>からの画像
+    # 640x480
+
+
+#################### product ####################
+product:
+  enable : true
+  section : "Products"
+  title : "実績サンプル"
+  content : "売るための仕組み(IT)をメインに、売れる仕組み(マーケティング)の提供も行います。また、仕組みを作るための方法を教えることもできます。"
+  product_item:
+  - title : "Ecosystem"
+    image : "images/product/product-03.jpg"
+    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
+    project_url : "#"
+    
+  - title : "Objects"
+    image : "images/product/product-02.jpg"
+    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
+    project_url : "#"
+    
+  - title : "Publisher"
+    image : "images/product/product-03.jpg"
+    content : "Omega OS Version 2.0 is the world’s first and only cloud operating system. See how this revolutionarys oftware can become the center of your business."
+    project_url : "#"
+
+
+###################### Contact ####################
+contact:
+  enable : true
+  section : "CONTACT US"
+  title : "お気軽にどうぞ"
+  image : "images/map-bg.jpg"
+  content : "ITに関するご相談であればなんでも承ります。ホームページ、スマホアプリ、なんでもやります。販売促進のためのダイレクトリレーションマーケティングについてもご相談ください。また、マーケティングやプログラミングの講師についてもご相談に応じます。"
+
+  
+################### call to action #################
+call_to_action:
+  enable : true
+  title : "お気軽にご相談ください。<br>だいたいなんでもお応えできると思いますよ。"
+  button_label : "相談してみる"
+  button_link : "career"
